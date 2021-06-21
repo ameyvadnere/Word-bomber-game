@@ -3,7 +3,7 @@
 """
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 Created on: 18/6/21 21:43:30 (IST)
-version: 1.0
+version: 1.1
 author: Ameya Vadnere
 email: amey619rocks@gmail.com
 
@@ -32,7 +32,7 @@ class Config:
     resolution = (pg.display.Info().current_w, pg.display.Info().current_h)             # Display mode, set to default
     font_style = 'calibri'                                                              # Font style of falling words/menu text
     font_size = 20                                                                      # Font size of falling words
-    fps = 60                                                                            # Frames per second/refresh rate
+    fps = 360                                                                           # Frames per second/refresh rate
     word_speed = 2                                                                      # How quickly words fall
     max_lives = 3                                                                       # No. of chances/lives
     done_color = 'grey'                                                                 # Color of letters done typing in a word
@@ -91,7 +91,7 @@ class Word:
         Randomly generate x-coordinates for a word.
         """
         left_bound = 100
-        right_bound = Config.resolution[1] - 100
+        right_bound = Config.resolution[0] - 200
         return (random.randrange(left_bound, right_bound), 0)
 
 
@@ -132,7 +132,7 @@ class Word:
         """
         instance_list = [Word.word_obj]*bool(Word.word_obj) + cls.instances
         for instance in instance_list:
-            instance.text_surf_rect.move_ip(0, Config.word_speed)
+            instance.text_surf_rect.move_ip(0, Config.word_speed + wave/2)
 
     @classmethod
     def generate_word(cls):
@@ -406,7 +406,7 @@ class Game:
         """
         Game.initialize()
         while True:
-            Game.clock.tick(Config.fps)   # The program will not run more than 'fps' times per second.
+            Game.clock.tick_busy_loop(Config.fps)   # The program will not run more than 'fps' times per second.
             Game.check_lives()
             Word.generate_word()
             Word.check_for_collisions()
