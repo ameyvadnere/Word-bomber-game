@@ -16,7 +16,7 @@ the number of words increasing with each wave. After a certain number of lives a
 
 ## Installation and Working
 
-If you simply want to play the game (on Windows), you can either install the game using the **[.msi](https://github.com/ameyvadnere/Word-bomber-game/blob/main/Word%20Bomber-1.0-amd64-setup.msi)** installer provided, or you can directly go to **[game/exe.win-amd64-3.9](https://github.com/ameyvadnere/Word-bomber-game/tree/main/game/exe.win-amd64-3.9)** to find **wordbomber.exe**, which will launch the game.
+If you simply want to play the game (on Windows), you can either install the game using the **[.msi](https://github.com/ameyvadnere/Word-bomber-game/blob/main/Word%20Bomber-1.0-amd64-setup.msi)** installer provided, or you can directly go to **[build/exe.win-amd64-3.9](https://github.com/ameyvadnere/Word-bomber-game/tree/main/game/exe.win-amd64-3.9)** to find **wordbomber.exe**, which will launch the game.
 
 For development (making changes to the game), you will first have to install the above dependencies. You can do this by running **[package-installer.bat](https://github.com/ameyvadnere/Word-bomber-game/blob/main/package-installer.bat)** (Windows) or **[package-installer.sh](https://github.com/ameyvadnere/Word-bomber-game/blob/main/package-installer.sh)** (Linux). You can also install the packages manually.
 
