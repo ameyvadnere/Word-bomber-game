@@ -14,8 +14,8 @@ if sys.platform == "win32":
     base = "Win32GUI"
 
 setup(  name = "Word Bomber",
-        version = "1.1",
-        options={"build_exe": {"packages":["pygame"],
+        version = "1.2",
+        options={"build_exe": {"packages":[],
                            "include_files":["assets"]}},
         description = "My first complete game!",
-        executables = [Executable("wordbomber.py", base=base)])
+        executables = [Executable("Game.py", base=base)])
