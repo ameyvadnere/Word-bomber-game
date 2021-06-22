@@ -30,7 +30,7 @@ To convert your game into a Windows installer, run `python exec_maker.py bdist_m
 * [Pygame Documentation](https://www.pygame.org/docs/) <br>
 * [cx_Freeze Documentation](https://cx-freeze.readthedocs.io/en/latest/) <br>
 * [Converting .py to .exe](https://pythonprogramming.net/converting-pygame-executable-cx_freeze/)<br>
-* [Assets (background and rocket image)](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXJwS0dnS2V4SHhoNXRBM1B1bzBtajRPcTgyUXxBQ3Jtc0ttNHRiMzFSSTgxTy1INmYtOGR6cmVrN2dURXc0bGM5RDBaUzVZQWRXdUk0Y1RLaWw4SWxsN1JMWDFiQmFlSURGTE9xTFY2YWVMZGRoMmRYVkxqanJ1XzZ4NFI1Ni1aZUp5a01sQU52dGxWWGJ5ZXZpSQ&q=https%3A%2F%2Ftechwithtim.net%2Fwp-content%2Fuploads%2F2020%2F04%2Fassets.zip)
+* [Visual assets](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXJwS0dnS2V4SHhoNXRBM1B1bzBtajRPcTgyUXxBQ3Jtc0ttNHRiMzFSSTgxTy1INmYtOGR6cmVrN2dURXc0bGM5RDBaUzVZQWRXdUk0Y1RLaWw4SWxsN1JMWDFiQmFlSURGTE9xTFY2YWVMZGRoMmRYVkxqanJ1XzZ4NFI1Ni1aZUp5a01sQU52dGxWWGJ5ZXZpSQ&q=https%3A%2F%2Ftechwithtim.net%2Fwp-content%2Fuploads%2F2020%2F04%2Fassets.zip)
 * [Audio assets](https://mixkit.co/free-sound-effects/game/)
 * [List of words used](https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/)
 * [Stack Overflow (of course)](https://stackoverflow.com/)
