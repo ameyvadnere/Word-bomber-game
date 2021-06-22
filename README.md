@@ -16,11 +16,11 @@ the number of words increasing with each wave. After a certain number of lives a
 
 ## Installation and Working
 
-If you simply want to play the game (on Windows), you can either install the game using the **[.msi](https://github.com/ameyvadnere/Word-bomber-game/blob/main/Word%20Bomber-1.0-amd64-setup.msi)** installer provided, or you can directly go to **[game/exe.win-amd64-3.9](https://github.com/ameyvadnere/Word-bomber-game/tree/main/game/exe.win-amd64-3.9)** to find **wordbomber.exe**, which will launch the game.
+If you simply want to play the game (on Windows), you can either install the game using the **[.msi](https://github.com/ameyvadnere/Word-bomber-game/blob/main/Word%20Bomber-1.2-amd64.msi)** installer provided, or you can directly go to **[build/exe.win-amd64-3.9](https://github.com/ameyvadnere/Word-bomber-game/tree/main/build/exe.win-amd64-3.9)** to find **Game.exe**, which will launch the game.
 
 For development (making changes to the game), you will first have to install the above dependencies. You can do this by running **[package-installer.bat](https://github.com/ameyvadnere/Word-bomber-game/blob/main/package-installer.bat)** (Windows) or **[package-installer.sh](https://github.com/ameyvadnere/Word-bomber-game/blob/main/package-installer.sh)** (Linux). You can also install the packages manually.
 
-The main source file is **[wordbomber.py](https://github.com/ameyvadnere/Word-bomber-game/blob/main/wordbomber.py)**. You can make the necessary changes to this file and to run your game, simply run the script using `python wordbomber.py`.
+The main source file is **[Game.py](https://github.com/ameyvadnere/Word-bomber-game/blob/main/Game.py)**. You can make the necessary changes to this file and to run your game, simply run the script using `python Game.py`.
 
 Now, to convert your game into an executable file, run `python exec_maker.py build`. Make sure the game assets and all dependency files are included in **[exec_maker.py](https://github.com/ameyvadnere/Word-bomber-game/blob/main/exec_maker.py)**.
 To convert your game into a Windows installer, run `python exec_maker.py bdist_msi`. For Mac and Linux platforms, please refer to the cx_Freeze [documentation](https://cx-freeze.readthedocs.io/en/latest/).
