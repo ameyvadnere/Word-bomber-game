@@ -142,7 +142,10 @@ class Word:
             if obj.text_surf_rect.y >= Config.resolution[1]:
                 if obj in cls.instances:
                     cls.instances.remove(obj)
-                cls.word_obj, cls.initiated = None, None
+
+                if cls.word_obj is obj:
+                    cls.word_obj, cls.initiated = None, None
+
                 cls.words_left -= 1
                 Game.screen.fill('red')
                 Game.lives -= 1
